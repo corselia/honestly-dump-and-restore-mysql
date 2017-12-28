@@ -30,12 +30,15 @@ source_db (MySQL) ----- clone -----> target_db (MySQL)
 ```
 
 # Feature
-- without SQL to INSERT data
+- without SQL to READ(SELECT) data
     - because of using `mysqldump` command
+- without SQL to INSERT data
+    - because of using dumped data directly
 
 # TOO BAD...
 - it takes a long time
     - because of using `mysqldump` command
+    - because of using dumped data directly
 - test is not written
 
 # LICENSE
