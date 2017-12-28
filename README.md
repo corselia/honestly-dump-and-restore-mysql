@@ -31,11 +31,11 @@ source_db (MySQL) ----- clone -----> target_db (MySQL)
 
 # Feature
 - without SQL to INSERT data
-    - because of `mysqldump` command
+    - because of using `mysqldump` command
 
 # TOO BAD...
 - it takes a long time
-    - because of `mysqldump` command
+    - because of using `mysqldump` command
 - test is not written
 
 # LICENSE
