@@ -22,6 +22,13 @@ $ gem install mysql2
 $ ruby app.rb
 ```
 
+# Result
+- both MySQLs have the same data
+
+```
+source_db (MySQL) ----- clone -----> target_db (MySQL)
+```
+
 # Feature
 - without SQL to INSERT data
     - because of `mysqldump` command
